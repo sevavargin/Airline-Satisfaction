@@ -1,0 +1,28 @@
+{
+    "parameters": {
+        "n_estimators": 2000,
+        "learning_rate": 0.03,
+        "num_leaves": 31,
+        "subsample": 0.8,
+        "subsample_freq": 1,
+        "colsample_bytree": 0.8,
+        "reg_lambda": 1.0,
+        "random_state": 42
+    },
+    "fold_auc": [
+        0.9590555113061927,
+        0.9578511343210239,
+        0.9596026486923903,
+        0.958804821753064,
+        0.9591382330360952
+    ],
+    "mean_fold_auc": 0.9588904698217533,
+    "oof_auc": 0.9588781741592428,
+    "best_iterations": [
+        1503,
+        1904,
+        1655,
+        1251,
+        996
+    ]
+}
