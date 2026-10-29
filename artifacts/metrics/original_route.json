@@ -1,0 +1,23 @@
+{
+    "fold_auc": [
+        0.9605212904729112,
+        0.9592822337505565,
+        0.9612112984983803,
+        0.960626979745212,
+        0.9607096688639081
+    ],
+    "mean_fold_auc": 0.9604702942661936,
+    "oof_auc": 0.9604621524485576,
+    "source_oof_auc": 0.995040203342028,
+    "parameters": {
+        "n_estimators": 2000,
+        "learning_rate": 0.03,
+        "num_leaves": 31,
+        "subsample": 0.8,
+        "subsample_freq": 1,
+        "colsample_bytree": 0.8,
+        "reg_lambda": 1.0,
+        "n_jobs": 4,
+        "verbosity": -1
+    }
+}

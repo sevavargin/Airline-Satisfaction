@@ -1,0 +1,10 @@
+{
+    "source": "https://www.kaggle.com/datasets/cdeotte/s6e10-tfm-oof-and-test-predictions",
+    "tabpfn35_oof_auc": 0.9611450968215367,
+    "blend_oof_auc": 0.9613242193621557,
+    "blend_rank_weights": {
+        "tabpfn35": 0.7,
+        "lightgbm_route_te": 0.18,
+        "proper_te": 0.12
+    }
+}

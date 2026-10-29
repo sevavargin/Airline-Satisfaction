@@ -1,0 +1,49 @@
+{
+    "parameters": {
+        "n_estimators": 4000,
+        "learning_rate": 0.03,
+        "num_leaves": 127,
+        "min_child_samples": 50,
+        "subsample": 0.8,
+        "subsample_freq": 1,
+        "colsample_bytree": 0.7,
+        "reg_alpha": 0.3,
+        "reg_lambda": 1.0,
+        "n_jobs": 4,
+        "verbosity": -1
+    },
+    "fold_metrics": {
+        "0": {
+            "auc": 0.9605062066761949,
+            "previous_auc": 0.9603531995583718,
+            "difference": 0.00015300711782306742,
+            "best_iteration": 402
+        },
+        "1": {
+            "auc": 0.9590693897061866,
+            "previous_auc": 0.9588368924864543,
+            "difference": 0.0002324972197322861,
+            "best_iteration": 563
+        },
+        "2": {
+            "auc": 0.9610125429716706,
+            "previous_auc": 0.9608820613035495,
+            "difference": 0.0001304816681211296,
+            "best_iteration": 420
+        },
+        "3": {
+            "auc": 0.9604647204600252,
+            "previous_auc": 0.9603249147336925,
+            "difference": 0.00013980572633265353,
+            "best_iteration": 543
+        },
+        "4": {
+            "auc": 0.9603229317236426,
+            "previous_auc": 0.9602052661607016,
+            "difference": 0.00011766556294101616,
+            "best_iteration": 600
+        }
+    },
+    "mean_fold_auc": 0.960275158307544,
+    "oof_auc": 0.9602609586543622
+}
