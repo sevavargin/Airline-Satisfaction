@@ -1,0 +1,12 @@
+{
+  "model": "stack247",
+  "description": "Nested logistic stack of 247 public OOF prediction pairs",
+  "source": "https://www.kaggle.com/datasets/dariushafshar/s6e10-golem-oof-library",
+  "source_version": 6,
+  "license": "CC0-1.0; some inputs use TabPFN-3.5 non-commercial model license",
+  "oof_auc": 0.962205015,
+  "published_public_lb": 0.96187,
+  "n_train": 699635,
+  "n_test": 299844,
+  "blend_with_own_models": "rejected: all tested positive weights reduced OOF AUC"
+}

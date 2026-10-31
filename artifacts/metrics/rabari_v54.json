@@ -1,0 +1,13 @@
+{
+  "submission": "rabari_v54_submission.csv",
+  "description": "Public V54 rank-ensemble submission by KRISH RABARI",
+  "source_notebook": "https://www.kaggle.com/code/rabari9999/s6e10-lb-0-96209-rank-10",
+  "source_dataset": "https://www.kaggle.com/datasets/mayankraaz/s6e10-lb-surface-atlas",
+  "source_dataset_version": 5,
+  "license": "CC0-1.0 for the rehosted Surface Atlas dataset",
+  "published_public_lb": 0.96209,
+  "n_test": 299844,
+  "id_alignment_checked": true,
+  "finite_predictions_checked": true,
+  "rank_correlation_with_stack247": 0.996548757
+}
