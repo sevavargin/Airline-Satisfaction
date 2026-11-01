@@ -1,0 +1,2 @@
+# Preserve the exact third-party submission bytes documented by SHA256.
+submissions/xwc_v10_exact_submission.csv -text
