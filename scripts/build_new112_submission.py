@@ -9,8 +9,6 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 NEW_LIBRARY_PATH = PROJECT_ROOT / "112 OOF.npz"
 NEW_SIGNAL_WEIGHTS = [0.05, 0.10]
 
-# These five members had the highest full OOF AUC in the new 112-model
-# library. Their equal-rank consensus improved stack247 on all five folds.
 TOP_FIVE_MEMBERS = [
     "combo_p22_gbdt_xgb_auxev_s1234",
     "r6_tabpfn_classctxbag_oof",
@@ -54,7 +52,6 @@ print("members:")
 for member_name in TOP_FIVE_MEMBERS:
     print(" -", member_name)
 
-# Transfer only the OOF-validated new direction, rather than replacing V54.
 for new_signal_weight in NEW_SIGNAL_WEIGHTS:
     new_signal = new_signal_weight * (new_consensus_rank - stack247_rank)
     corrected_score = v54_rank + new_signal

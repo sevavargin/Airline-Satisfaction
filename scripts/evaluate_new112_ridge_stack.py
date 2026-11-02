@@ -67,8 +67,6 @@ for member_index, member_name in enumerate(member_names, start=1):
 
 del archive
 
-# Keep stack247 as a fixed baseline. The new models can only learn a correction
-# through their rank difference from that baseline; they cannot replace it.
 baseline_rank = matrix[:, 0].copy()
 matrix[:, 1:] -= baseline_rank[:, None]
 matrix[:, 0] = 0.0
